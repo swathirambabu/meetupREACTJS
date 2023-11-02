@@ -9,7 +9,7 @@ const NotFound = () => (
   <NotFoundContainer>
     <NotFoundHeading>Page Not Found</NotFoundHeading>
     <NotFoundPara>
-      We are sorry, the page you are requested could not be found
+      We are sorry, the page you requested could not be found
     </NotFoundPara>
     <NotFoundImage
       src="https://assets.ccbp.in/frontend/react-js/meetup/not-found-img.png"
