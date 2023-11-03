@@ -1,29 +1,25 @@
 import styled from 'styled-components'
 
 export const NotFoundContainer = styled.div`
-display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 `
+
 export const NotFoundHeading = styled.h1`
-  font-family: roboto;
-  font-size: 32px;
-  font-weight: bold;
   color: #64748b;
-  margin-bottom: 10px;
-`
-
-export const NotFoundPara = styled.p`
-  font-family: roboto;
   font-size: 32px;
-  font-weight: bold;
+  font-family: 'Roboto';
+`
+export const NotFoundPara = styled.p`
   color: #7b8794;
-  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: 'Roboto';
 `
 
-export const NotFoundImage = styled.img`
+export const Img = styled.img`
   height: 250px;
   width: 250px;
 `

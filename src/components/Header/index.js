@@ -1,14 +1,16 @@
 import {Link} from 'react-router-dom'
-import {Nav, Image} from './styledComponents'
+
+import {Nav, Logo} from './styledComponents'
 
 const Header = () => (
   <Nav>
     <Link to="/">
-      <Image
+      <Logo
         src="https://assets.ccbp.in/frontend/react-js/meetup/website-logo-img.png"
         alt="website logo"
       />
     </Link>
   </Nav>
 )
+
 export default Header

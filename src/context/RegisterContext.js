@@ -1,14 +1,14 @@
 import React from 'react'
 
-const ThemeAndContext = React.createContext({
+const RegisterContext = React.createContext({
   name: '',
   topic: 'Arts and Culture',
-  registerName: () => {},
-  updateError: () => {},
   changeName: () => {},
   changeTopic: () => {},
   isRegistered: false,
+  registerName: () => {},
   showError: false,
+  updateError: () => {},
 })
 
-export default ThemeAndContext
+export default RegisterContext
