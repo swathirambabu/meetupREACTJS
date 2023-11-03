@@ -45,7 +45,6 @@ const Home = props => {
                 <Link to="/register">
                   <Button onClick={onRegister}>Register</Button>
                 </Link>
-
                 <Image
                   src="https://assets.ccbp.in/frontend/react-js/meetup/meetup-img.png"
                   alt="meetup"

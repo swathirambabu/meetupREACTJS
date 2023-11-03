@@ -116,5 +116,4 @@ const Register = props => (
     }}
   </RegisterContext.Consumer>
 )
-
 export default Register
